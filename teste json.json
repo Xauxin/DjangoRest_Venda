@@ -1,0 +1,176 @@
+[
+    {
+        "id": 1,
+        "nome": "Jaleco Masculino",
+        "Suprimentos": [
+            {
+                "nome": "Ibiza",
+                "cores": [
+                    "Preto",
+                    "Azul Noite",
+                    "Denin"
+                ]
+            }
+        ],
+        "Tamanhos": [
+            {
+                "nome": "38",
+                "preço": 0
+            },
+            {
+                "nome": "40",
+                "preço": 0
+            },
+            {
+                "nome": "42",
+                "preço": 0
+            },
+            {
+                "nome": "44",
+                "preço": 0
+            },
+            {
+                "nome": "50",
+                "preço": 10
+            },
+            {
+                "nome": "52",
+                "preço": 10
+            }
+        ],
+        "modelagem": [
+            {
+                "nome": "Gola",
+                "opçoes": [
+                    {
+                        "nome": "Blaser",
+                        "valor": 0
+                    },
+                    {
+                        "nome": "Padre",
+                        "valor": 10
+                    },
+                    {
+                        "nome": "Smoking",
+                        "valor": 20
+                    }
+                ],
+                "required": true,
+                "type": "unico"
+            },
+            {
+                "nome": "Manga",
+                "opces": [
+                    {
+                        "nome": "Curta",
+                        "valor": -10
+                    },
+                    {
+                        "nome": "Cavada",
+                        "valor": -15
+                    },
+                    {
+                        "nome": "Longa Basica",
+                        "valor": 0
+                    }
+                ],
+                "required": true,
+                "type": "unico"
+            },
+            {
+                "nome": "Punho",
+                "opces": [
+                    {
+                        "nome": "Basico",
+                        "valor": 0
+                    },
+                    {
+                        "nome": "Camisa",
+                        "valor": 20
+                    },
+                    {
+                        "nome": "Ribana",
+                        "valor": 20
+                    },
+                    {
+                        "nome": "Elastico",
+                        "valor": 20
+                    }
+                ],
+                "required": true,
+                "type": "unico"
+            }
+        ],
+        "medidas":[
+            {
+                "nome": "Busto",
+                "validação": "opcional",
+                "primeira pagina": true,
+                "complexa": true
+            },
+            {
+                "nome": "Bordado",
+                "validação": "aviso",
+                "primeira pagina": true,
+                "complexa": true
+            },
+            {
+                "nome": "Comprimento",
+                "validação": "obrigatório",
+                "primeira pagina": true,
+                "complexa": true
+            }
+        ],
+        "locais_de_bordado":["manga_esquerda", "manga_direita", "outro"],
+        "valor": 165
+
+    }
+]
+
+esquema_produto:{
+    id:number
+    nome:string
+    valor_base: number
+}
+suprimentos:{
+    id:number
+    nome:string
+    esquema_produto_id:ForeignKey
+}
+cores:{
+    id:number
+    nome:string
+    cores para bordado:string ex: branco//preto//amarelo//
+    suprimento_id:ForeignKey
+}
+Tamanhos:{
+    id:number
+    nome:string
+    valor: number
+    esquema_produto_id:ForeignKey
+}
+Modelagem:{
+    id:number
+    nome:string
+    esquema_produto_id:ForeignKey 
+    
+}
+OpçãoModelagem:{
+    id:number
+    nome:string
+    valor: number
+    modelagem_id:ForeignKey
+}
+Medidas:{
+    id:number
+    nome:string
+    validação: string
+    primeira-pagina: boolean
+    complexo: boolean
+    esquemaProduto_id:ForeignKey
+}
+Locais De bordado:{
+    id:number
+    nome:string
+    esquema_produto_id:ForeignKey
+}
