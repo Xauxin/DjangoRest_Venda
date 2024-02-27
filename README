@@ -1,0 +1,11 @@
+Projeto Desenvovido em DjangoRest + Mysql
+
+Todas dependencias por padrão se encontram no requirements.txt na base do projeto
+
+##Variaveis de ambiente nessessárias##
+Referentes a conexão com o banco local: 
+./setup/settings.DATABASES
+DB_PASSWORD
+DB_USER
+DB_HOST
+DB_PORT
