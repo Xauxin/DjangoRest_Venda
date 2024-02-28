@@ -130,18 +130,8 @@
 esquema_produto:{
     id:number
     nome:string
+    suprimento:ManytoMany(suprimento)
     valor_base: number
-}
-suprimentos:{
-    id:number
-    nome:string
-    esquema_produto_id:ForeignKey
-}
-cores:{
-    id:number
-    nome:string
-    cores para bordado:string ex: branco//preto//amarelo//
-    suprimento_id:ForeignKey
 }
 Tamanhos:{
     id:number
@@ -173,4 +163,16 @@ Locais De bordado:{
     id:number
     nome:string
     esquema_produto_id:ForeignKey
+}
+
+suprimentos:{
+    id:number
+    nome:string
+    cores:f
+}
+cores:{
+    id:number
+    nome:string
+    cores para bordado:string ex: branco//preto//amarelo//
+    suprimento_id:ForeignKey
 }
