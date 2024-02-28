@@ -1,6 +1,6 @@
 from django.db import models
 
-class Medidas(models.Model):
+class Medida(models.Model):
     VALIDACOES = {
         ('O', 'Opicional'),
         ('A', 'Aviso'),
@@ -25,12 +25,3 @@ class Medidas(models.Model):
         return dict(self.COMPLEXIDADES)[nota_de_complexidade]
 
 
-
-#     Medidas:{
-#     id:number
-#     nome:string
-#     validação: string
-#     primeira-pagina: boolean
-#     complexo: boolean
-#     esquemaProduto_id:ForeignKey
-# }
