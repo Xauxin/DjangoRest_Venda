@@ -1,4 +1,5 @@
 from rest_framework.response import Response
+from django.db import models
 from rest_framework import viewsets, status
 from rest_framework.renderers import JSONRenderer
 from .esquema_produto_model import EsquemaProduto
@@ -9,4 +10,3 @@ class EsquemaProdutoViewset(viewsets.ModelViewSet):
     queryset  = EsquemaProduto.objects.all()
     serializer_class = EsquemaProdutoSerializer
 
-    

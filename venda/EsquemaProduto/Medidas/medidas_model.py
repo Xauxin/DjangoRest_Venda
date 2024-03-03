@@ -1,4 +1,5 @@
 from django.db import models
+from ..esquema_produto_model import EsquemaProduto
 
 class Medida(models.Model):
     VALIDACOES = {
@@ -19,7 +20,7 @@ class Medida(models.Model):
     validacoes = models.CharField(max_length= 1, choices=VALIDACOES)
     primeira_pagina = models.BooleanField()
     complexidade = models.IntegerField(choices=COMPLEXIDADES, null=False, blank=False)
-    esquema_produto = models.ForeignKey('EsquemaProduto', on_delete=models.CASCADE, null=False, blank=False, related_name='+')
+    esquema_produto = models.ForeignKey(EsquemaProduto, on_delete=models.CASCADE, null=False, blank=False, related_name='+')
 
     def complexidade_str(self, nota_de_complexidade):
         return dict(self.COMPLEXIDADES)[nota_de_complexidade]

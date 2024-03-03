@@ -18,12 +18,14 @@ from django.contrib import admin
 from django.urls import include, path
 from rest_framework import routers
 from venda.EsquemaProduto.esquema_produto_view import EsquemaProdutoViewset
+from venda.EsquemaProduto.Medidas.medidas_view import MedidaViewset
 from estoque.Suprimentos.suprimento_view import SuprimentoViewset
 
 
 router = routers.DefaultRouter()
 router.register('esquema_produto', EsquemaProdutoViewset, 'Esquema Produto')
 router.register('suprimento', SuprimentoViewset, 'Suprimento')
+router.register('medida', MedidaViewset, 'Medida')
 
 
 urlpatterns = [

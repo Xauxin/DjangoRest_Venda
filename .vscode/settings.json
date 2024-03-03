@@ -1,4 +1,5 @@
 {
     "explorer.compactFolders": true,
-    "explorer.sortOrder": "filesFirst"
+    "explorer.sortOrder": "filesFirst",
+    "python.analysis.typeCheckingMode": "basic"
 }
