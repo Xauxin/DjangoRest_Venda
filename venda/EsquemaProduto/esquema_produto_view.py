@@ -10,3 +10,10 @@ class EsquemaProdutoViewset(viewsets.ModelViewSet):
     queryset  = EsquemaProduto.objects.all()
     serializer_class = EsquemaProdutoSerializer
 
+    def list(self, request, *args, **kwargs):
+        
+        return super().list(request, *args, **kwargs)
+
+    def create(self, request, *args, **kwargs):
+        print(request.data)
+        return super().create(request, *args, **kwargs)

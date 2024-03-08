@@ -19,6 +19,9 @@ from django.urls import include, path
 from rest_framework import routers
 from venda.EsquemaProduto.esquema_produto_view import EsquemaProdutoViewset
 from venda.EsquemaProduto.Medidas.medidas_view import MedidaViewset
+from venda.EsquemaProduto.Modelagem.modelagem_view import ModelagemViewset
+from venda.EsquemaProduto.Modelagem.OpcaoModelagem.opcao_modelagem_view import OpcaoModelagemViewset
+from venda.EsquemaProduto.Tamanhos.tamanhos_view import TamanhoViewset
 from estoque.Suprimentos.suprimento_view import SuprimentoViewset
 from estoque.Suprimentos.Cores.cores_view import CorViewset
 
@@ -28,6 +31,9 @@ router.register('esquema_produto', EsquemaProdutoViewset, 'Esquema Produto')
 router.register('suprimento', SuprimentoViewset, 'Suprimento')
 router.register('cor', CorViewset, 'Cor')
 router.register('medida', MedidaViewset, 'Medida')
+router.register('modelagem', ModelagemViewset, 'Modelagem')
+router.register('tamanho', TamanhoViewset, 'Tamanho')
+router.register('opcao_modelagem', OpcaoModelagemViewset, 'Opcao Modelgem')
 
 
 urlpatterns = [
