@@ -14,29 +14,41 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.conf.urls.static import static
+from django.conf import settings
 from django.contrib import admin
 from django.urls import include, path
 from rest_framework import routers
-from venda.EsquemaProduto.esquema_produto_view import EsquemaProdutoViewset
-from venda.EsquemaProduto.Medidas.medidas_view import MedidaViewset
-from venda.EsquemaProduto.Modelagem.modelagem_view import ModelagemViewset
-from venda.EsquemaProduto.Modelagem.OpcaoModelagem.opcao_modelagem_view import OpcaoModelagemViewset
-from venda.EsquemaProduto.Tamanhos.tamanhos_view import TamanhoViewset
+from pessoas.Particao_Especialidade.particao_especialidade_views import Particao_especialidadeViewSet, Particao_especialidade_por_nucleoViewSet
+from pessoas.pessoas.pessoa_views import PessoaViewSet, NucleoComParticoesPorPessoaViewSet
+from venda.EsquemaProduto.esquema_produto_view import EsquemaProdutoViewSet
 from estoque.Suprimentos.suprimento_view import SuprimentoViewset
 from estoque.Suprimentos.Cores.cores_view import CorViewset
+from pessoas.nucleo.nucleo_views import NucleoComParticoesViewSet, NucleoViewSet
+from bordados.bordado.bordado_views import BordadoViewSet
+from venda.venda.venda_views import VendaViewSet
 
 
 router = routers.DefaultRouter()
-router.register('esquema_produto', EsquemaProdutoViewset, 'Esquema Produto')
-router.register('suprimento', SuprimentoViewset, 'Suprimento')
-router.register('cor', CorViewset, 'Cor')
-router.register('medida', MedidaViewset, 'Medida')
-router.register('modelagem', ModelagemViewset, 'Modelagem')
-router.register('tamanho', TamanhoViewset, 'Tamanho')
-router.register('opcao_modelagem', OpcaoModelagemViewset, 'Opcao Modelgem')
+router.register('venda', VendaViewSet, "venda")
+router.register('particao_especialidade', Particao_especialidadeViewSet, basename= 'particao_especialidade')
+router.register('esquema_produto', EsquemaProdutoViewSet, basename= 'esquema_produto')
+router.register('suprimento', SuprimentoViewset, basename= 'Suprimento')
+router.register('cor', CorViewset, basename= 'Cor')
+router.register("nucleo", NucleoViewSet, basename='nucleo')
+router.register("nucleo-particoes", NucleoComParticoesViewSet, basename="nucleo_particoes")
+router.register('pessoa', PessoaViewSet, basename='pessoa')
+router.register('bordado', BordadoViewSet, basename='bordado')
+
+
+
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(router.urls)),
-]
+    path('pessoa/<int:pk>/nucleos-particoes', NucleoComParticoesPorPessoaViewSet.as_view({'get':'retrieve'}), name='nucleo_particoes_pessoa'),
+    path('pessoas/<str:pk_list>/nucleos-particoes', NucleoComParticoesPorPessoaViewSet.as_view({'get':'list'}), name='nucleo_particoes_pessoa'),
+    path('particao_especialidade-por-nucleo', Particao_especialidade_por_nucleoViewSet.as_view({'get':'list'}), name='particoes_especialidade_por_nucleo')
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+

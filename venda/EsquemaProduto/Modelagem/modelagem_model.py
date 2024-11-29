@@ -1,10 +1,10 @@
 from django.db import models
 
 class Modelagem(models.Model):
-    TIPOS = [
+    TIPOS = {
         ('U', 'Unico'),
         ('V', 'Varias Escolhas')
-    ]
+    }
 
     nome = models.CharField(max_length=50, blank=False, null=False)
     requerido = models.BooleanField()

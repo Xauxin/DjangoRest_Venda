@@ -1,6 +1,7 @@
 from rest_framework import serializers
 from .suprimento_model import Suprimento
-from .Cores.cores_model import Cor
+from .Cores.cores_serializer import *
+
 
 class SuprimentoSerializer(serializers.Serializer):
     
@@ -18,8 +19,13 @@ class SuprimentoSerializer(serializers.Serializer):
         return obj.get_classificacao_display()
 
     def to_representation(self, instance):
+        return instance.nome
+
+    def detailed_to_representation(self, instance):
+        cores = [CorSerializer().to_representation(cor) for cor in instance.cores.all()]
         return {
-            'nome': instance.nome
+            'nome': instance.nome,
+            'cores': cores
         }
 
     def to_representation_esquema_produto(self, instance):
@@ -34,5 +40,10 @@ class SuprimentoSerializer(serializers.Serializer):
         suprimento.save()
         return suprimento
 
-    def update(self, instance):
-        super().update(self, instance)
+    def update(self, instance, validated_data):
+        cores = validated_data.pop('cores', None)
+        super().update(instance, validated_data)
+        if cores is not None:
+            instance.cores.set(objs=cores)
+        instance.save()
+        return instance

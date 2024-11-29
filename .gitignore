@@ -18,4 +18,4 @@ var/
 *.pyc
 __pycache__/
 .env
-Api_venda/migrations
+migrations

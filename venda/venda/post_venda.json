@@ -1,0 +1,92 @@
+    {
+        "pessoa": 17,
+        "status": "Aguardando Pagamento",
+        "valores": {
+            "produtos": 338,
+            "total": 378.42,
+            "frete": {
+                "tipo": "particular",
+                "valor": 10
+            },
+            "desconto": {
+                "tipo": "porcentagem",
+                "valor": 12
+            },
+            "taxas":{
+                "tipo": "porcentagem",
+                "valor": 21
+            }
+        },
+        "observacao": "Observado",
+        "produtos": [
+            {
+                "esquema": 60,
+                "nome": "Esquema Teste 2",
+                "tamanho": {
+                    "tamanho_id": 113
+                },
+                "tecido": {
+                    "tecido_id": 1,
+                    "cor_id": 1
+                },
+                "modelagem": {
+                    "Gola": "Padre"
+                },
+                "medidas": {
+                    "menos do lado": "21"
+                },
+                "bordados": [
+                    {
+                        "bordado": 9,
+                        "local": "Manga Esquerda"
+                    }
+                ],
+                "valor": 119,
+                "observacoes": "asd"
+            },{
+                "esquema": 60,
+                "nome": "Esquema Teste 2",
+                "tamanho": {
+                    "tamanho_id": 113
+                },
+                "tecido": {
+                    "tecido_id": 1,
+                    "cor_id": 1
+                },
+                "modelagem": {
+                    "Gola": "Padre"
+                },
+                "medidas": {
+                    "menos do lado": "21"
+                },
+                "bordados": [
+                    {
+                        "bordado": 9,
+                        "local": "Manga Esquerda"
+                    }
+                ],
+                "valor": 119,
+                "observacoes": "asd"
+            },
+            {
+                "nome": "teste",
+                "tamanho":{
+                    "tamanho_nome": "42"
+                },
+                "tecido":{
+                    "tecido_nome": "Ibiza",
+                    "cor_nome": "Preto"
+                },
+                "modelagem":{
+                    "Gola":"Blaser",
+                    "Tiras":"Presa"
+                },
+                "medidas":{"padrão": "0"},
+                "bordados":[{"local": "sembr", "bordado": 9}],
+                "valor": 100,
+                "observacoes":"teste"
+            }
+        ]
+    }
+
+    

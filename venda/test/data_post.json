@@ -1,0 +1,72 @@
+{
+    "pessoa": 17,
+    "status": "Aguardando Pagamento",
+    "valores": {
+        "produtos": 238,
+        "total": 238,
+        "frete": {
+            "tipo": "correios"
+
+        },
+        "desconto": {
+            "tipo": "porcentagem"
+
+        },
+        "taxas":{
+            "tipo": "fixo"
+
+        }
+    },
+    "observacao": "Observado",
+    "produtos": [
+        {
+            "esquema": 60,
+            "nome": "Esquema Teste 2",
+            "tamanho": {
+                "tamanho_id": 113
+            },
+            "tecido": {
+                "tecido_id": 1,
+                "cor_id": 1
+            },
+            "modelagem": {
+                "Gola": "Padre"
+            },
+            "medidas": {    
+                "menos do lado": "21"
+            },
+            "bordados": [
+                {
+                    "bordado": 9,
+                    "local": "Manga Esquerda"
+                }
+            ],
+            "valor": 119,
+            "observacoes": "asd"
+        }, {
+            "esquema": 60,
+            "nome": "Esquema Teste 2",
+            "tamanho": {
+                "tamanho_id": 113
+            },
+            "tecido": {
+                "tecido_id": 1,
+                "cor_id": 1
+            },
+            "modelagem": {
+                "Gola": "Padre"
+            },
+            "medidas": {
+                "menos do lado": "21"
+            },
+            "bordados": [
+                {
+                    "bordado": 9,
+                    "local": "Manga Esquerda"
+                }
+            ],
+            "valor": 119,
+            "observacoes": "asd"
+        }
+    ]
+}

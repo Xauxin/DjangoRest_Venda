@@ -1,0 +1,1162 @@
+[
+  {
+    "model": "estoque.Cor",
+    "pk": 1,
+    "fields": {
+      "nome": "Azul Noite",
+      "cores_bordado": "Branco//Prata//Dourado",
+      "hex": "00008b"
+    }
+  },
+  {
+    "model": "estoque.Cor",
+    "pk": 2,
+    "fields": {
+      "nome": "Lunar",
+      "cores_bordado": "Branco//Prata//Dourado",
+      "hex": "c7beb1"
+    }
+  },
+  {
+    "model": "estoque.Cor",
+    "pk": 3,
+    "fields": {
+      "nome": "Beje",
+      "cores_bordado": "Branco//Prata//Dourado",
+      "hex": "b1b38f"
+    }
+  },
+  {
+    "model": "estoque.Cor",
+    "pk": 4,
+    "fields": {
+      "nome": "Céu",
+      "cores_bordado": "Branco//Prata//Dourado",
+      "hex": "bddbd1"
+    }
+  },
+  {
+    "model": "estoque.Cor",
+    "pk": 5,
+    "fields": {
+      "nome": "Acqua",
+      "cores_bordado": "Branco//Prata//Dourado",
+      "hex": "82edb2"
+    }
+  },
+  {
+    "model": "estoque.Cor",
+    "pk": 6,
+    "fields": {
+      "nome": "Silver",
+      "cores_bordado": "Branco//Prata//Dourado",
+      "hex": "8da4b0"
+    }
+  },
+  {
+    "model": "estoque.Cor",
+    "pk": 7,
+    "fields": {
+      "nome": "Grafite",
+      "cores_bordado": "Branco//Prata//Dourado",
+      "hex": "575859"
+    }
+  },
+  {
+    "model": "estoque.Cor",
+    "pk": 8,
+    "fields": {
+      "nome": "Plácido",
+      "cores_bordado": "Branco//Prata//Dourado",
+      "hex": "87b1fa"
+    }
+  },
+  {
+    "model": "estoque.Cor",
+    "pk": 9,
+    "fields": {
+      "nome": "Lilás",
+      "cores_bordado": "Branco//Prata//Dourado",
+      "hex": "9981c9"
+    }
+  },
+  {
+    "model": "estoque.Cor",
+    "pk": 10,
+    "fields": {
+      "nome": "Uva",
+      "cores_bordado": "Branco//Prata//Dourado",
+      "hex": "ca77f7"
+    }
+  },
+  {
+    "model": "estoque.Cor",
+    "pk": 11,
+    "fields": {
+      "nome": "Hortencia",
+      "cores_bordado": "Branco//Prata//Dourado",
+      "hex": "4688fa"
+    }
+  },
+  {
+    "model": "estoque.Cor",
+    "pk": 12,
+    "fields": {
+      "nome": "Laranja",
+      "cores_bordado": "Branco//Prata//Dourado",
+      "hex": "f7603e"
+    }
+  },
+  {
+    "model": "estoque.Cor",
+    "pk": 13,
+    "fields": {
+      "nome": "Cereja",
+      "cores_bordado": "Branco//Prata//Dourado",
+      "hex": "fc1947"
+    }
+  },
+  {
+    "model": "estoque.Cor",
+    "pk": 14,
+    "fields": {
+      "nome": "Verde Bandeira",
+      "cores_bordado": "Branco//Prata//Dourado",
+      "hex": "2da665"
+    }
+  },
+  {
+    "model": "estoque.Cor",
+    "pk": 15,
+    "fields": {
+      "nome": "Verde Militar",
+      "cores_bordado": "Branco//Prata//Dourado",
+      "hex": "293022"
+    }
+  },
+  {
+    "model": "estoque.Cor",
+    "pk": 16,
+    "fields": {
+      "nome": "Cobalto",
+      "cores_bordado": "Branco//Prata//Dourado",
+      "hex": "1e1259"
+    }
+  },
+  {
+    "model": "estoque.Cor",
+    "pk": 17,
+    "fields": {
+      "nome": "Denin",
+      "cores_bordado": "Branco//Prata//Dourado",
+      "hex": "324354"
+    }
+  },
+  {
+    "model": "estoque.Cor",
+    "pk": 18,
+    "fields": {
+      "nome": "Azul Noite",
+      "cores_bordado": "Branco//Prata//Dourado",
+      "hex": "1a162e"
+    }
+  },
+  {
+    "model": "estoque.Cor",
+    "pk": 19,
+    "fields": {
+      "nome": "Preto",
+      "cores_bordado": "Branco//Prata//Dourado",
+      "hex": "020105"
+    }
+  },
+  {
+    "model": "estoque.Cor",
+    "pk": 20,
+    "fields": {
+      "nome": "Brnco",
+      "cores_bordado": "Branco//Prata//Dourado",
+      "hex": "ffffff"
+    }
+  },
+  {
+    "model": "estoque.Suprimento",
+    "pk": 1,
+    "fields": {
+      "nome": "Gabardine Sintra",
+      "valor": 11.9,
+      "unidade_de_medida": "m",
+      "classificacao": "T",
+      "cores": [19, 18, 11, 7, 6]
+    }
+  },
+  {
+    "model": "estoque.Suprimento",
+    "pk": 2,
+    "fields": {
+      "nome": "Tricoline com elastano Ibiza",
+      "valor": 19.8,
+      "unidade_de_medida": "m",
+      "classificacao": "T",
+      "cores": [
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
+      ]
+    }
+  },
+  {
+    "model": "estoque.Suprimento",
+    "pk": 3,
+    "fields": {
+      "nome": "Botao",
+      "valor": 0.49,
+      "unidade_de_medida": "Un",
+      "classificacao": "A",
+      "cores": [20, 4, 5, 6, 8, 4, 19]
+    }
+  },
+  {
+    "model": "estoque.Suprimento",
+    "pk": 4,
+    "fields": {
+      "nome": "Linha",
+      "valor": 7.4,
+      "unidade_de_medida": "g",
+      "classificacao": "L",
+      "cores": [
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
+      ]
+    }
+  },
+  {
+    "model": "estoque.Suprimento",
+    "pk": 5,
+    "fields": {
+      "nome": "Fio",
+      "valor": 7.4,
+      "unidade_de_medida": "g",
+      "classificacao": "L",
+      "cores": [
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
+      ]
+    }
+  },
+  {
+    "model": "estoque.Suprimento",
+    "pk": 6,
+    "fields": {
+      "nome": "Entretela",
+      "valor": 8.9,
+      "unidade_de_medida": "m",
+      "classificacao": "A",
+      "cores": [20, 19]
+    }
+  },
+  {
+    "model": "estoque.Suprimento",
+    "pk": 7,
+    "fields": {
+      "nome": "Pezinho",
+      "valor": 45.0,
+      "unidade_de_medida": "Un",
+      "classificacao": "P",
+      "cores": []
+    }
+  },
+  {
+    "model": "estoque.Suprimento",
+    "pk": 8,
+    "fields": {
+      "nome": "TicTac",
+      "valor": 0.49,
+      "unidade_de_medida": "Un",
+      "classificacao": "A",
+      "cores": [20, 4, 5, 6, 8, 4, 19]
+    }
+  },
+  {
+    "model": "estoque.Suprimento",
+    "pk": 9,
+    "fields": {
+      "nome": "Zíper Invisível",
+      "valor": 2.5,
+      "unidade_de_medida": "Un",
+      "classificacao": "A",
+      "cores": [1, 2, 3, 4, 5, 6]
+    }
+  },
+  {
+    "model": "estoque.Suprimento",
+    "pk": 10,
+    "fields": {
+      "nome": "Elástico",
+      "valor": 1.2,
+      "unidade_de_medida": "m",
+      "classificacao": "A",
+      "cores": [10, 11, 12, 13, 14, 15]
+    }
+  },
+  {
+    "model": "venda.EsquemaProduto",
+    "pk": 1,
+    "fields": {
+        "nome": "Jaleco Masculino",
+        "suprimentos": [9, 8, 6, 5, 4, 3, 1],
+        "locais_de_bordado_sugeridos": "Manga Esqueda//Manga Direita//Peito",
+        "valor_base": "170.00"
+    }
+},
+{
+    "model": "venda.EsquemaProduto",
+    "pk": 2,
+    "fields": {
+        "nome": "Jaleco Feminino",
+        "suprimentos": [9, 8, 6, 5, 4, 3, 1],
+        "locais_de_bordado_sugeridos": "Manga Esqueda//Manga Direita//Peito",
+        "valor_base": "170.00"
+    }
+},
+{
+    "model": "venda.Medida",
+    "pk": 1,
+    "fields":{
+      "nome": "busto",
+      "validacoes": "O",
+      "primeira_pagina": true,
+      "complexidade": 2,
+      "esquema_produto_id": 1
+    }
+},
+{
+  "model": "venda.Medida",
+  "pk": 2,
+  "fields": {
+      "nome": "comprimento",
+      "validacoes": "O",
+      "primeira_pagina": true,
+      "complexidade": 3,
+      "esquema_produto_id": 1
+  }
+},
+{
+  "model": "venda.Medida",
+  "pk": 3,
+  "fields": {
+      "nome": "bordado",
+      "validacoes": "A",
+      "primeira_pagina": true,
+      "complexidade": 1,
+      "esquema_produto_id": 1
+  }
+},
+{
+  "model": "venda.Medida",
+  "pk": 4,
+  "fields": {
+      "nome": "comprimento Manga",
+      "validacoes": "O",
+      "primeira_pagina": true,
+      "complexidade": 3,
+      "esquema_produto_id": 1
+  }
+},
+{
+  "model": "venda.Medida",
+  "pk": 5,
+  "fields": {
+      "nome": "- de cv a br",
+      "validacoes": "O",
+      "primeira_pagina": false,
+      "complexidade": 3,
+      "esquema_produto_id": 1
+  }
+},
+{
+  "model": "venda.Medida",
+  "pk": 6,
+  "fields": {
+      "nome": "frente",
+      "validacoes": "o",
+      "primeira_pagina": true,
+      "complexidade": 2,
+      "esquema_produto_id": 1
+  }
+},
+{
+  "model": "venda.Medida",
+  "pk": 7,
+  "fields": {
+      "nome": "menos do lado",
+      "validacoes": "O",
+      "primeira_pagina": false,
+      "complexidade": 4,
+      "esquema_produto_id": 1
+  }
+},
+{
+  "model": "venda.Modelagem",
+  "pk": 1,
+  "fields": {
+    "nome": "Gola",
+    "requerido": true,
+    "tipo": "U",
+    "esquema_produto_id": 1
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 1,
+  "fields": {
+    "nome": "Blaser",
+    "valor": 0,
+    "modelagem_id": 1
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 2,
+  "fields": {
+    "nome": "Padre",
+    "valor": 5,
+    "modelagem_id": 1
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 3,
+  "fields": {
+    "nome": "Smoking",
+    "valor": 20,
+    "modelagem_id": 1
+  }
+},
+{
+  "model": "venda.Modelagem",
+  "pk": 2,
+  "fields": {
+    "nome": "Bolso",
+    "requerido": true,
+    "tipo": "U",
+    "esquema_produto_id": 1
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 4,
+  "fields": {
+    "nome": "com",
+    "valor": 0,
+    "modelagem_id": 2
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 5,
+  "fields": {
+    "nome": "Com",
+    "valor": 10,
+    "modelagem_id": 2
+  }
+},
+{
+  "model": "venda.Modelagem",
+  "pk": 3,
+  "fields": {
+    "nome": "Trava",
+    "requerido": true,
+    "tipo": "U",
+    "esquema_produto_id": 1
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 6,
+  "fields": {
+    "nome": "Presa",
+    "valor": 0,
+    "modelagem_id": 3
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 7,
+  "fields": {
+    "nome": "Sem",
+    "valor": 0,
+    "modelagem_id": 3
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 8,
+  "fields": {
+    "nome": "Padrao",
+    "valor": 0,
+    "modelagem_id": 3
+  }
+},
+{
+  "model": "venda.Modelagem",
+  "pk": 4,
+  "fields": {
+    "nome": "Vivo",
+    "requerido": false,
+    "tipo": "V",
+    "esquema_produto_id": 1
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 9,
+  "fields": {
+    "nome": "Frente",
+    "valor": 5,
+    "modelagem_id": 4
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 10,
+  "fields": {
+    "nome": "Gola",
+    "valor": 5,
+    "modelagem_id": 4
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 11,
+  "fields": {
+    "nome": "Punho",
+    "valor": 5,
+    "modelagem_id": 4
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 12,
+  "fields": {
+    "nome": "trava",
+    "valor": 5,
+    "modelagem_id": 4
+  }
+},
+{
+  "model": "venda.Modelagem",
+  "pk": 5,
+  "fields": {
+    "nome": "manga",
+    "requerido": true,
+    "tipo": "U",
+    "esquema_produto_id": 1
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 13,
+  "fields": {
+    "nome": "Curta",
+    "valor": 5,
+    "modelagem_id": 5
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 14,
+  "fields": {
+    "nome": "Cavada",
+    "valor": 5,
+    "modelagem_id": 5
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 15,
+  "fields": {
+    "nome": "Longa",
+    "valor": 5,
+    "modelagem_id": 5
+  }
+},
+{
+  "model": "venda.Modelagem",
+  "pk": 6,
+  "fields": {
+    "nome": "punho",
+    "requerido": true,
+    "tipo": "U",
+    "esquema_produto_id": 1
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 16,
+  "fields": {
+    "nome": "Padrao",
+    "valor": 5,
+    "modelagem_id": 6
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 17,
+  "fields": {
+    "nome": "Camisa",
+    "valor": 5,
+    "modelagem_id": 6
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 18,
+  "fields": {
+    "nome": "Ribana",
+    "valor": 5,
+    "modelagem_id": 6
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 19,
+  "fields": {
+    "nome": "Elastico",
+    "valor": 5,
+    "modelagem_id": 6
+  }
+},
+{
+  "model": "venda.Tamanho",
+  "pk": 1,
+  "fields": {
+    "nome": "38",
+    "complexidade": 2,
+    "esquema_produto_id": 1
+  }
+},
+{
+  "model": "venda.Tamanho",
+  "pk": 2,
+  "fields": {
+    "nome": "40",
+    "complexidade": 2,
+    "esquema_produto_id": 1
+  }
+},
+{
+  "model": "venda.Tamanho",
+  "pk": 3,
+  "fields": {
+    "nome": "42",
+    "complexidade": 2,
+    "esquema_produto_id": 1
+  }
+},
+{
+  "model": "venda.Tamanho",
+  "pk": 4,
+  "fields": {
+    "nome": "44",
+    "complexidade": 2,
+    "esquema_produto_id": 1
+  }
+},
+{
+  "model": "venda.Tamanho",
+  "pk": 5,
+  "fields": {
+    "nome": "46",
+    "complexidade": 2,
+    "esquema_produto_id": 1
+  }
+},
+{
+  "model": "venda.Tamanho",
+  "pk": 6,
+  "fields": {
+    "nome": "48",
+    "complexidade": 2,
+    "esquema_produto_id": 1
+  }
+},
+{
+  "model": "venda.Tamanho",
+  "pk": 7,
+  "fields": {
+    "nome": "50",
+    "complexidade": 3,
+    "esquema_produto_id": 1
+  }
+},
+{
+  "model": "venda.Tamanho",
+  "pk": 8,
+  "fields": {
+    "nome": "52",
+    "complexidade": 3,
+    "esquema_produto_id": 1
+  }
+},
+{
+  "model": "venda.Tamanho",
+  "pk": 9,
+  "fields": {
+    "nome": "54",
+    "complexidade": 3,
+    "esquema_produto_id": 1
+  }
+},
+{
+  "model": "venda.Tamanho",
+  "pk": 10,
+  "fields": {
+    "nome": "56",
+    "complexidade": 3,
+    "esquema_produto_id": 1
+  }
+},
+{
+  "model": "venda.Tamanho",
+  "pk": 11,
+  "fields": {
+    "nome": "58",
+    "complexidade": 3,
+    "esquema_produto_id": 1
+  }
+},
+{
+  "model": "venda.Tamanho",
+  "pk": 12,
+  "fields": {
+    "nome": "60",
+    "complexidade": 3,
+    "esquema_produto_id": 1
+  }
+},
+{
+  "model": "venda.Medida",
+  "pk": 8,
+  "fields": {
+    "nome": "ombro",
+    "validacoes": "O",
+    "primeira_pagina": true,
+    "complexidade": 2,
+    "esquema_produto_id": 2
+  }
+},
+{
+  "model": "venda.Medida",
+  "pk": 9,
+  "fields": {
+    "nome": "cintura",
+    "validacoes": "O",
+    "primeira_pagina": true,
+    "complexidade": 3,
+    "esquema_produto_id": 2
+  }
+},
+{
+  "model": "venda.Medida",
+  "pk": 10,
+  "fields": {
+    "nome": "quadril",
+    "validacoes": "O",
+    "primeira_pagina": true,
+    "complexidade": 1,
+    "esquema_produto_id": 2
+  }
+},
+{
+  "model": "venda.Medida",
+  "pk": 11,
+  "fields": {
+    "nome": "comprimento total",
+    "validacoes": "O",
+    "primeira_pagina": true,
+    "complexidade": 3,
+    "esquema_produto_id": 2
+  }
+},
+{
+  "model": "venda.Medida",
+  "pk": 12,
+  "fields": {
+    "nome": "largura costas",
+    "validacoes": "O",
+    "primeira_pagina": false,
+    "complexidade": 3,
+    "esquema_produto_id": 2
+  }
+},
+{
+  "model": "venda.Medida",
+  "pk": 13,
+  "fields": {
+    "nome": "altura joelho",
+    "validacoes": "O",
+    "primeira_pagina": true,
+    "complexidade": 2,
+    "esquema_produto_id": 2
+  }
+},
+{
+  "model": "venda.Medida",
+  "pk": 14,
+  "fields": {
+    "nome": "largura coxa",
+    "validacoes": "O",
+    "primeira_pagina": false,
+    "complexidade": 4,
+    "esquema_produto_id": 2
+  }
+},
+{
+  "model": "venda.Medida",
+  "pk": 15,
+  "fields": {
+    "nome": "altura gancho",
+    "validacoes": "O",
+    "primeira_pagina": false,
+    "complexidade": 3,
+    "esquema_produto_id": 2
+  }
+},
+{
+  "model": "venda.Modelagem",
+  "pk": 7,
+  "fields": {
+    "nome": "Gola",
+    "requerido": true,
+    "tipo": "U",
+    "esquema_produto_id": 2
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 7,
+  "fields": {
+    "nome": "Blaser",
+    "valor": 0,
+    "modelagem_id": 7
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 8,
+  "fields": {
+    "nome": "Padre",
+    "valor": 5,
+    "modelagem_id": 7
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 9,
+  "fields": {
+    "nome": "Smoking",
+    "valor": 20,
+    "modelagem_id": 7
+  }
+},
+{
+  "model": "venda.Modelagem",
+  "pk": 8,
+  "fields": {
+    "nome": "Bolso",
+    "requerido": true,
+    "tipo": "U",
+    "esquema_produto_id": 2
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 10,
+  "fields": {
+    "nome": "Com",
+    "valor": 0,
+    "modelagem_id": 8
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 11,
+  "fields": {
+    "nome": "Sem",
+    "valor": 10,
+    "modelagem_id": 8
+  }
+},
+{
+  "model": "venda.Modelagem",
+  "pk": 9,
+  "fields": {
+    "nome": "Trava",
+    "requerido": true,
+    "tipo": "U",
+    "esquema_produto_id": 2
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 12,
+  "fields": {
+    "nome": "Presa",
+    "valor": 0,
+    "modelagem_id": 9
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 13,
+  "fields": {
+    "nome": "Sem",
+    "valor": 0,
+    "modelagem_id": 9
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 14,
+  "fields": {
+    "nome": "Padrao",
+    "valor": 0,
+    "modelagem_id": 9
+  }
+},
+{
+  "model": "venda.Modelagem",
+  "pk": 10,
+  "fields": {
+    "nome": "Vivo",
+    "requerido": false,
+    "tipo": "V",
+    "esquema_produto_id": 2
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 15,
+  "fields": {
+    "nome": "Frente",
+    "valor": 5,
+    "modelagem_id": 10
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 16,
+  "fields": {
+    "nome": "Gola",
+    "valor": 5,
+    "modelagem_id": 10
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 17,
+  "fields": {
+    "nome": "Punho",
+    "valor": 5,
+    "modelagem_id": 10
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 18,
+  "fields": {
+    "nome": "Trava",
+    "valor": 5,
+    "modelagem_id": 10
+  }
+},
+{
+  "model": "venda.Modelagem",
+  "pk": 11,
+  "fields": {
+    "nome": "Manga",
+    "requerido": true,
+    "tipo": "U",
+    "esquema_produto_id": 2
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 19,
+  "fields": {
+    "nome": "Curta",
+    "valor": 5,
+    "modelagem_id": 11
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 20,
+  "fields": {
+    "nome": "Cavada",
+    "valor": 5,
+    "modelagem_id": 11
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 21,
+  "fields": {
+    "nome": "Longa",
+    "valor": 5,
+    "modelagem_id": 11
+  }
+},
+{
+  "model": "venda.Modelagem",
+  "pk": 12,
+  "fields": {
+    "nome": "Punho",
+    "requerido": true,
+    "tipo": "U",
+    "esquema_produto_id": 2
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 22,
+  "fields": {
+    "nome": "Padrao",
+    "valor": 5,
+    "modelagem_id": 12
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 23,
+  "fields": {
+    "nome": "Camisa",
+    "valor": 5,
+    "modelagem_id": 12
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 24,
+  "fields": {
+    "nome": "Ribana",
+    "valor": 5,
+    "modelagem_id": 12
+  }
+},
+{
+  "model": "venda.OpcaoModelagem",
+  "pk": 25,
+  "fields": {
+    "nome": "Elastico",
+    "valor": 5,
+    "modelagem_id": 12
+  }
+},
+{
+  "model": "venda.Tamanho",
+  "pk": 13,
+  "fields": {
+    "nome": "38",
+    "complexidade": 2,
+    "esquema_produto_id": 2
+  }
+},
+{
+  "model": "venda.Tamanho",
+  "pk": 14,
+  "fields": {
+    "nome": "40",
+    "complexidade": 2,
+    "esquema_produto_id": 2
+  }
+},
+{
+  "model": "venda.Tamanho",
+  "pk": 15,
+  "fields": {
+    "nome": "42",
+    "complexidade": 2,
+    "esquema_produto_id": 2
+  }
+},
+{
+  "model": "venda.Tamanho",
+  "pk": 16,
+  "fields": {
+    "nome": "44",
+    "complexidade": 2,
+    "esquema_produto_id": 2
+  }
+},
+{
+  "model": "venda.Tamanho",
+  "pk": 17,
+  "fields": {
+    "nome": "46",
+    "complexidade": 2,
+    "esquema_produto_id": 2
+  }
+},
+{
+  "model": "venda.Tamanho",
+  "pk": 18,
+  "fields": {
+    "nome": "48",
+    "complexidade": 2,
+    "esquema_produto_id": 2
+  }
+},
+{
+  "model": "venda.Tamanho",
+  "pk": 19,
+  "fields": {
+    "nome": "50",
+    "complexidade": 3,
+    "esquema_produto_id": 2
+  }
+},
+{
+  "model": "venda.Tamanho",
+  "pk": 20,
+  "fields": {
+    "nome": "52",
+    "complexidade": 3,
+    "esquema_produto_id": 2
+  }
+},
+{
+  "model": "venda.Tamanho",
+  "pk": 21,
+  "fields": {
+    "nome": "54",
+    "complexidade": 3,
+    "esquema_produto_id": 2
+  }
+},
+{
+  "model": "venda.Tamanho",
+  "pk": 22,
+  "fields": {
+    "nome": "56",
+    "complexidade": 3,
+    "esquema_produto_id": 2
+  }
+},
+{
+  "model": "venda.Tamanho",
+  "pk": 23,
+  "fields": {
+    "nome": "58",
+    "complexidade": 3,
+    "esquema_produto_id": 2
+  }
+},
+{
+  "model": "venda.Tamanho",
+  "pk": 24,
+  "fields": {
+    "nome": "60",
+    "complexidade": 3,
+    "esquema_produto_id": 2
+  }
+}
+]
+
